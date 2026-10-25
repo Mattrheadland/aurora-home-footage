@@ -1,0 +1,159 @@
+{
+ "version": "0.5.0",
+ "scenes": {
+  "procida": {
+   "file": "scenes/procida.mp4",
+   "bytes": 24598133,
+   "title": "Procida",
+   "period": "day",
+   "weather": "cloudy"
+  },
+  "harbor-town": {
+   "file": "scenes/harbor-town.mp4",
+   "bytes": 18030636,
+   "title": "Harbor Town",
+   "period": "day",
+   "weather": "clear"
+  },
+  "perast": {
+   "file": "scenes/perast.mp4",
+   "bytes": 27168579,
+   "title": "Perast",
+   "period": "day",
+   "weather": "clear"
+  },
+  "moored": {
+   "file": "scenes/moored.mp4",
+   "bytes": 27108636,
+   "title": "Moored Fishing Boats",
+   "period": "day",
+   "weather": "cloudy"
+  },
+  "boats-above": {
+   "file": "scenes/boats-above.mp4",
+   "bytes": 26924233,
+   "title": "Boats from Above",
+   "period": "day",
+   "weather": "clear"
+  },
+  "rope": {
+   "file": "scenes/rope.mp4",
+   "bytes": 27084055,
+   "title": "Mooring Rope",
+   "period": "day",
+   "weather": "cloudy"
+  },
+  "vernazza": {
+   "file": "scenes/vernazza.mp4",
+   "bytes": 34288612,
+   "title": "Vernazza",
+   "period": "golden",
+   "weather": "clear"
+  },
+  "manarola": {
+   "file": "scenes/manarola.mp4",
+   "bytes": 27427794,
+   "title": "Manarola",
+   "period": "golden",
+   "weather": "clear"
+  },
+  "seferihisar": {
+   "file": "scenes/seferihisar.mp4",
+   "bytes": 26860304,
+   "title": "Seferihisar",
+   "period": "golden",
+   "weather": "cloudy"
+  },
+  "kalk-dock": {
+   "file": "scenes/kalk-dock.mp4",
+   "bytes": 12900262,
+   "title": "Fishing Boats on the Dock",
+   "period": "golden",
+   "weather": "clear"
+  },
+  "kalk-port": {
+   "file": "scenes/kalk-port.mp4",
+   "bytes": 12907538,
+   "title": "Fishing Boats at Port",
+   "period": "golden",
+   "weather": "clear"
+  },
+  "monopoli": {
+   "file": "scenes/monopoli.mp4",
+   "bytes": 34278066,
+   "title": "Monopoli",
+   "period": "golden",
+   "weather": "cloudy"
+  },
+  "monopoli-dusk": {
+   "file": "scenes/monopoli-dusk.mp4",
+   "bytes": 27122722,
+   "title": "Monopoli at Dusk",
+   "period": "dusk",
+   "weather": "cloudy"
+  },
+  "olhao": {
+   "file": "scenes/olhao.mp4",
+   "bytes": 27331767,
+   "title": "Olhão",
+   "period": "dusk",
+   "weather": "cloudy"
+  },
+  "evening-harbor": {
+   "file": "scenes/evening-harbor.mp4",
+   "bytes": 27695170,
+   "title": "Evening Harbor",
+   "period": "dusk",
+   "weather": "cloudy"
+  },
+  "twilight-yacht": {
+   "file": "scenes/twilight-yacht.mp4",
+   "bytes": 24757455,
+   "title": "Akşam Teknesi",
+   "period": "dusk",
+   "weather": "clear"
+  },
+  "coastal-evening": {
+   "file": "scenes/coastal-evening.mp4",
+   "bytes": 12911398,
+   "title": "Coastal Town at Evening",
+   "period": "dusk",
+   "weather": "clear"
+  },
+  "twilight-village": {
+   "file": "scenes/twilight-village.mp4",
+   "bytes": 31618276,
+   "title": "Twilight Village",
+   "period": "dusk",
+   "weather": "clear"
+  },
+  "como-night": {
+   "file": "scenes/como-night.mp4",
+   "bytes": 24005175,
+   "title": "Lake Como",
+   "period": "night",
+   "weather": "clear"
+  },
+  "primosten": {
+   "file": "scenes/primosten.mp4",
+   "bytes": 29268252,
+   "title": "Primošten",
+   "period": "night",
+   "weather": "clear"
+  },
+  "harbor-lights": {
+   "file": "scenes/harbor-lights.mp4",
+   "bytes": 33880137,
+   "title": "Harbor Lights",
+   "period": "night",
+   "weather": "any"
+  },
+  "water-night": {
+   "file": "scenes/water-night.mp4",
+   "bytes": 26634640,
+   "title": "Gold on the Water",
+   "period": "night",
+   "weather": "any"
+  }
+ }
+}
