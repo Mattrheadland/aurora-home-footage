@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="service_description">Opens Aurora Home whenever the Fire TV would show its own home screen (Home button and startup). It does not read screen content.</string>
+</resources>

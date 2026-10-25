@@ -1,0 +1,27 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.mattheadland.aurora'
+    compileSdk 34
+    defaultConfig {
+        applicationId 'com.mattheadland.aurora'
+        minSdk 25
+        targetSdk 30
+        versionCode Integer.parseInt(System.getenv("AURORA_VERSION_CODE") ?: "1")
+        versionName "1.0." + (System.getenv("AURORA_VERSION_CODE") ?: "1")
+    }
+    signingConfigs {
+        aurora {
+            storeFile file('aurora.keystore')
+            storePassword 'aurora-sideload'
+            keyAlias 'aurora'
+            keyPassword 'aurora-sideload'
+        }
+    }
+    buildTypes {
+        release { minifyEnabled false; signingConfig signingConfigs.aurora }
+        debug { signingConfig signingConfigs.aurora }
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_11; targetCompatibility JavaVersion.VERSION_11 }
+    aaptOptions { noCompress 'mp4' }
+    lint { abortOnError false; checkReleaseBuilds false }
+}
