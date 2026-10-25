@@ -375,6 +375,11 @@ window.addEventListener('DOMContentLoaded',function(){
   window.__auroraResume = function () {
     var ui = document.getElementById('ui'); if (ui) ui.classList.remove('leaving');
   };
+  window.addEventListener('load', function () {
+    var vv = window.visualViewport;
+    window.AuroraFire.log('viewport ' + innerWidth + 'x' + innerHeight + ' dpr ' + devicePixelRatio +
+      ' screen ' + screen.width + 'x' + screen.height + (vv ? ' vv ' + Math.round(vv.width) + 'x' + Math.round(vv.height) + ' s' + vv.scale : ''));
+  });
   window.addEventListener('error', function (e) { window.AuroraFire.log('error: ' + e.message + ' @' + e.filename + ':' + e.lineno); });
 })();
 
