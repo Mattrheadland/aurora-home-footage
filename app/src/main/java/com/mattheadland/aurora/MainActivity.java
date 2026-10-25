@@ -36,8 +36,15 @@ public class MainActivity extends Activity {
         s.setMediaPlaybackRequiresUserGesture(false);
         s.setAllowFileAccess(true);                  // local footage lives in app storage (file://)
         s.setAllowFileAccessFromFileURLs(true);
-        s.setLoadWithOverviewMode(false);
-        s.setUseWideViewPort(false);
+        // Lay the page out on its fixed 1920x1080 canvas (meta viewport) and scale that to the screen,
+        // whatever the stick's output resolution and density are.
+        s.setUseWideViewPort(true);
+        s.setLoadWithOverviewMode(true);
+        s.setSupportZoom(false);
+        s.setBuiltInZoomControls(false);
+        s.setTextZoom(100);
+        int px = getResources().getDisplayMetrics().widthPixels;
+        web.setInitialScale(Math.max(1, Math.round(px * 100f / 1920f)));
         s.setCacheMode(WebSettings.LOAD_DEFAULT);
         if (Build.VERSION.SDK_INT >= 21) s.setMixedContentMode(WebSettings.MIXED_CONTENT_NEVER_ALLOW);
         web.setWebViewClient(new WebViewClient());
